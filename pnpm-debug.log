@@ -1,0 +1,9 @@
+---
+  0 info pnpm: "A store server is running. All store manipulations are delegated to it."
+  1 warn pnpm: "using --shamefully-flatten is discouraged, you should declare all of your dependencies in package.json"
+  2 error pnpm: 
+    message: {}
+    err: 
+      name: "Error"
+      message: "Invalid name: \"bby URL Shortener\""
+      stack: "Error: Invalid name: \"bby URL Shortener\"\n    at ensureValidName (/home/nvm/pnpm/lib/node_modules/pnpm/lib/node_modules/normalize-package-data/lib/fixer.js:335:15)\n    at Object.fixNameField (/home/nvm/pnpm/lib/node_modules/pnpm/lib/node_modules/normalize-package-data/lib/fixer.js:215:5)\n    at /home/nvm/pnpm/lib/node_modules/pnpm/lib/node_modules/normalize-package-data/lib/normalize.js:32:38\n    at Array.forEach (<anonymous>)\n    at normalize (/home/nvm/pnpm/lib/node_modules/pnpm/lib/node_modules/normalize-package-data/lib/normalize.js:31:15)\n    at final (/home/nvm/pnpm/lib/node_modules/pnpm/lib/node_modules/read-package-json/read-json.js:411:5)\n    at then (/home/nvm/pnpm/lib/node_modules/pnpm/lib/node_modules/read-package-json/read-json.js:160:5)\n    at /home/nvm/pnpm/lib/node_modules/pnpm/lib/node_modules/read-package-json/read-json.js:364:12\n    at /home/nvm/pnpm/lib/node_modules/pnpm/lib/node_modules/graceful-fs/graceful-fs.js:78:16\n    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)"
